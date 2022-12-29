@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MusicAppApi.Data.ViewModels
+{
+    public class GenreArtistPopularityVm
+    {
+        public int GenreID { get; set; }
+        public string? GenreType { get; set; }
+        public int SongID { get; set; }
+        public int Rank { get; set; }
+        public int GenreCount { get; set; }
+        public int ArtistID { get; set; }
+        public string? ArtistName { get; set; }
+
+
+    }
+}
